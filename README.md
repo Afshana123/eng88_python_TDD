@@ -6,7 +6,7 @@
 
 - _Use pip to install the packages_
 
-## What is TDD?
+### What is TDD?
 Test Driven Development (TDD) is a software development approach in which test cases are developed to specify and validate what the code will do. In simple terms, test cases for each functionality are created and tested first and if the test fails then the new code is written in order to pass the test and making code simple and bug-free.
 
 - Nothing is pushed or sent to production before it is tested.
@@ -22,7 +22,7 @@ Test Driven Development (TDD) is a software development approach in which test c
 - Then we write the code to pass (GREEN).
 - BLUE Refactoring is when we improve our code then start again.
 
-## Exercise
+### Exercise
 1. Let's create a file to write our tests for our basic calculator class.
 2. Then we will create a file to add functionality to pass the tests.
 

@@ -1,26 +1,36 @@
-# Test Driven Developmeent (TDD)
+# Test Driven Development (TDD)
 
-Pytest and Unittest
+---
 
-Use pip to install the packages 
+- _Pytest and Unittest_
 
-What is TDD?
+- _Use pip to install the packages_
 
+## What is TDD?
+
+---
+Test Driven Development (TDD) is a software development approach in which test cases are developed to specify and validate what the code will do. In simple terms, test cases for each functionality are created and tested first and if the test fails then the new code is written in order to pass the test and making code simple and bug-free.
 Nothing is pushed or sent to production before it is tested 
 
-Production means in front of clients (the users)
+- Production means when it is in front of clients to view (the users)
+- If the test fails, then it will have to be tested again
+- The reason for TDD is that the program is error free or bug free
+###
 
-If the test fails, then we will again test 
+<center> <img src="https://www.qaiglobalinstitute.com/wp-content/uploads/2018/02/tdd.jpg" width="250" height="250"> </center>
 
 **TDD:**
-- Starts with RED where everything fails before writing functional code 
-- Then we write the code to pass GREEN
-- BLUE Refactoring - we improve our code, then start again 
+- RED  is where everything fails before writing functional code 
+- Then we write the code to pass (GREEN)
+- BLUE Refactoring is when we improve our code then start again 
 
-Let's create a file to write out tests for our basic calculator class
-Then we will create a file to add functionality to pass the tests 
+## Exercise
+1. Let's create a file to write our tests for our basic calculator class.
+2. Then we will create a file to add functionality to pass the tests.
 
-Let's write our test:
+Begin by writing a command on the terminal `pip install pytest` to install pytest.
+
+Now, let's write our test:
 
 ```python
 import pytest
@@ -46,7 +56,7 @@ class Calctest(unittest.TestCase):
 
 # make sure you make the python file called name_test, not name_tests
 ```
-Command to run the tests `python -m unittest discover -v` and `python -m unittest`
+Command to run the tests `python -m unittest discover -v` (which gives more information) and `python -m unittest`. 
 
 Let's add the functionality to pass the tests:
 
@@ -66,9 +76,11 @@ class SimpleCalc:
         return int1 / int2
 ```
 
-Let's run the tests again now to ensure all 4 tests pass
+Let's run the tests again now to ensure all 4 tests pass.
 
-So, run the command again `python -m unittest`
+So, run the command again `python -m unittest`. 
+
+- [x] All four tests passed.
 
 
 

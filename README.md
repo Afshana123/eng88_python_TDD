@@ -8,19 +8,19 @@
 
 ## What is TDD?
 Test Driven Development (TDD) is a software development approach in which test cases are developed to specify and validate what the code will do. In simple terms, test cases for each functionality are created and tested first and if the test fails then the new code is written in order to pass the test and making code simple and bug-free.
-Nothing is pushed or sent to production before it is tested 
 
-- Production means when it is in front of clients to view (the users)
-- If the test fails, then it will have to be tested again
-- The reason for TDD is that the program is error free or bug free
+- Nothing is pushed or sent to production before it is tested.
+- Production means when it is in front of clients to view (the users).
+- If the test fails, then it will have to be tested again.
+- The reason for TDD is that the program is error free or bug free.
 ###
 
 <center> <img src="https://www.qaiglobalinstitute.com/wp-content/uploads/2018/02/tdd.jpg" width="250" height="250"> </center>
 
 **TDD:**
-- RED  is where everything fails before writing functional code 
-- Then we write the code to pass (GREEN)
-- BLUE Refactoring is when we improve our code then start again 
+- RED  is where everything fails before writing functional code.
+- Then we write the code to pass (GREEN).
+- BLUE Refactoring is when we improve our code then start again.
 
 ## Exercise
 1. Let's create a file to write our tests for our basic calculator class.
